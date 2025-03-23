@@ -24,6 +24,8 @@ The **RAPTOR Prompt Engineering Framework** provides a structured and adaptable 
 
 This framework empowers users to guide AI models more effectively by scaffolding the prompt design process.
 
+**Use as a Meta Prompt** - For near perfect prompt generation consider using as a meta prompt with your ideas or tasks.
+
 ---
 
 ## 🧠 Role
