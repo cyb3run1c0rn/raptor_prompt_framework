@@ -127,7 +127,7 @@ Use this RAPTOR **Meta Prompt Generator** to instruct the AI to build a complete
 
 ---
 
-### 💡 Example Input:
+### 💡 **Example Input 1.** Technical Application:
 
 > My idea or task:  
 > **Build a fully working web app that tracks Cardano blockchain activity and visualises key indicators to support gaming-based trading decisions. The final output should include source code, HTML/CSS/JS or Python (Flask), and setup instructions. The solution should be deployable by a non-technical user.**
@@ -160,7 +160,7 @@ This prompt, when pasted into ChatGPT (or Claude, or Gemini), can guide the AI t
 
 ---
 
-### 💡 Example Input (Non-Technical, Monetised Product):
+### 💡 **Example Input 2.** (Non-Technical, Monetised Product):
 
 > My idea or task:  
 > **Create a complete downloadable product called “The Freelancer’s Proposal Pack” — a toolkit for freelance designers, writers, and developers that includes templates, pricing strategies, objection-handling scripts, and email outreach sequences. The final output should be packaged for sale on Gumroad or similar platforms.**
