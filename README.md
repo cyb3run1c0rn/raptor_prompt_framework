@@ -105,11 +105,11 @@ Encourage the AI to check for assumptions, missing data, or clarification needs.
 
 ---
 
-## 🦅 Super Powers with Meta Prompt?
+## 🦅 Unleash Super Powers with the following RAPTOR Meta Prompt?
 
 1. Try the following meta prompt with your favourite chat llm (it tells the llm to use the RAPTOR Framework):
 
-> "I want you to help me structure an effective AI prompt using the RAPTOR framework (Role, Aim, Parameters, Tone, Output, Review).
+> I want you to help me structure an effective AI prompt using the RAPTOR framework (Role, Aim, Parameters, Tone, Output, Review).
 > 
 > I will give you a brief description of what I need. From that, generate a full RAPTOR prompt that maximises clarity, structure, and control.
 > 
@@ -117,7 +117,7 @@ Encourage the AI to check for assumptions, missing data, or clarification needs.
 > 
 > Keep your response clear and professional.
 > 
-> Here is my idea or goal: **I want a fully built automatically generated web platform for predicting cardano progress. It should be a simple overview to allow for gaming trades**".
+> Here is my idea or goal: **I want a fully built automatically generated web platform for predicting cardano progress. It should be a simple overview to allow for gaming trades**.
 
 2. Use the llm's output as the perfect prompt for delivering your output/requirements.
 
