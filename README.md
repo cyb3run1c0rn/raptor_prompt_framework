@@ -1,67 +1,138 @@
-RAPTOR Prompt Engineering Framework
+# 🦅 RAPTOR Prompt Engineering Framework: Whitepaper
 
-Version 1.0 Author: Warren StockdaleLicence: CC BY-NC 4.0
+## RAPTOR Prompt Engineering Framework
 
-🦅 What is RAPTOR?
+**Version:** 1.0  
+**Author:** Warren Stockdale  
+**Licence:** CC BY-NC 4.0  
+**Last Updated:** 23/03/2025 
 
-RAPTOR is a structured prompt engineering framework designed to help individuals and teams craft clear, focused, and high-performing AI prompts.
+---
 
-It stands for:
+## 🚀 Executive Summary
 
-Role – Assign an identity to the AI
+The **RAPTOR Prompt Engineering Framework** provides a structured and adaptable method for creating effective prompts for AI systems. It improves clarity, structure, and consistency, particularly for technical, professional, or high-stakes use cases.
 
-Aim – Clarify the task or objective
+**RAPTOR** stands for:
 
-Parameters – Define boundaries or scope
+- **Role** – Define the AI's persona  
+- **Aim** – Set a clear task  
+- **Parameters** – Apply scope and constraints  
+- **Tone** – Control communication style  
+- **Output** – Structure the response  
+- **Review** – Enable iteration or refinement  
 
-Tone – Control communication style
+This framework empowers users to guide AI models more effectively by scaffolding the prompt design process.
 
-Output – Structure the final format
+**Use as a Meta Prompt** - For near perfect prompt generation consider using as a meta prompt with your ideas or tasks.
 
-Review – Include checks, clarifications, or follow-ups
+---
 
-This methodology is especially useful for high-stakes tasks in fields like cybersecurity, business strategy, education, and technical writing.
+## 🧠 Role
 
-📚 Why Use RAPTOR?
+Assigning a specific identity or area of expertise to the AI helps contextualise its knowledge and behaviour.
 
-Improve prompt precision and consistency
+**Example:**  
+> "You are a senior cybersecurity analyst with expertise in OT systems and incident response."
 
-Produce more usable, structured, and context-aware AI outputs
+---
 
-Reduce hallucinations and ambiguity
+## 🎯 Aim
 
-Enhance collaborative prompting in teams
+Clearly articulate what you want the AI to accomplish.
 
-📂 Contents
+**Example:**  
+> "Analyse the key threats to critical infrastructure posed by emerging OT malware families in 2024."
 
-WHITEPAPER.md: Full documentation of the RAPTOR framework
+---
 
-LICENSE.md: Creative Commons Non-Commercial licence
+## 📐 Parameters
 
-COMMERCIAL-LICENSE.md: Terms for business use or resale
+Define scope, exclusions, time frames, and other constraints.
 
-examples/: Sample prompts and templates
+**Example:**  
+> "Focus on advisories from government agencies and known vendors since January 2024. Exclude generic ransomware."
 
-tools/: (Optional) Prompt generator or interface files
+---
 
-💼 Licensing
+## 🎙️ Tone
 
-This project is free to use under Creative Commons Attribution-NonCommercial 4.0. For use in commercial applications, services, client deliverables, or training programmes, a commercial licence is required.
+Set the communication style to align with audience expectations.
 
-📄 Licence
+**Example:**  
+> "Use a formal and concise tone suitable for executive-level reporting."
 
-This content is licensed under the [Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/).
+---
 
-For commercial use or licensing enquiries, please contact Warren at warren.stockdale@outlook.com.
+## 🗂️ Output
 
-🙌 How to Contribute
+Specify the desired structure or format of the response.
 
-Pull requests, suggestions, and feedback are welcome! Open an issue or fork the repo to get involved.
+**Example:**  
+> "Provide the analysis in four sections: (1) Key Vulnerabilities, (2) Attack Vectors, (3) Impact Assessment, (4) Mitigation Strategies."
 
-🌐 Links
+---
 
-Whitepaper → WHITEPAPER.md
+## 🔍 Review
 
-Licence → LICENSE.md
+Encourage the AI to check for assumptions, missing data, or clarification needs.
 
-Commercial Use → COMMERCIAL-LICENSE.md
+**Example:**  
+> "If assumptions are required, state them clearly. If information is missing, ask for clarification before continuing."
+
+---
+
+## 🧩 Use Cases
+
+- Executive briefings  
+- Technical risk reports  
+- Educational content  
+- Strategic planning with LLMs  
+- Prompt libraries for consulting or SaaS  
+
+---
+
+## 📊 Comparison with Other Methods
+
+| Feature               | RAPTOR ✅ | Chain-of-Thought ❌ | ReAct ❌ | APE ✅ |
+|-----------------------|-----------|----------------------|----------|--------|
+| Role Definition       | ✅        | ❌                   | ❌       | ✅     |
+| Goal Clarification    | ✅        | ❌                   | ✅       | ✅     |
+| Scope/Constraints     | ✅        | ❌                   | ✅       | ✅     |
+| Tone & Style Control  | ✅        | ❌                   | ❌       | ❌     |
+| Output Formatting     | ✅        | ❌                   | ❌       | ❌     |
+| Encourages Review     | ✅        | ❌                   | ✅       | ❌     |
+
+---
+
+## 🦅 Super Powers with Meta Prompt?
+
+1. Try the following meta prompt with your favourite chat llm (it tells the llm to use the RAPTOR Framework):
+
+> "I want you to help me structure an effective AI prompt using the RAPTOR framework (Role, Aim, Parameters, Tone, Output, Review).
+> 
+> I will give you a brief description of what I need. From that, generate a full RAPTOR prompt that maximises clarity, structure, and control.
+> 
+> Please infer the appropriate Role, Aim, Parameters, Tone, Output structure, and Review instructions based on best practices.
+> 
+> Keep your response clear and professional.
+> 
+> Here is my idea or goal: **I want a fully built automatically generated web platform for predicting cardano progress. It should be a simple overview to allow for gaming trades**".
+
+2. Use the llm's output as the perfect prompt for delivering your output/requirements.
+
+---
+
+## 📄 Licence
+
+This work is licensed under the **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**.  
+For commercial use, please contact the author to obtain a commercial licence.
+
+---
+
+## 🤝 Contributions & Community
+
+Community feedback is welcome. Please open issues or submit pull requests.
+
+**GitHub:** https://github.com/cyb3run1c0rn/raptor_prompt_framework/
+**Contact:** TBC
