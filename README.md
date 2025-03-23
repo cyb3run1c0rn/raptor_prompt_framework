@@ -1,4 +1,4 @@
-# 🦅 RAPTOR Prompt Engineering Framework: Whitepaper
+# 🦅 RAPTOR Prompt Engineering Framework
 
 ## RAPTOR Prompt Engineering Framework
 
