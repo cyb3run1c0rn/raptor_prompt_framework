@@ -1,6 +1,6 @@
 RAPTOR Prompt Engineering Framework
 
-Version 1.0Author: Warren StockdaleLicence: CC BY-NC 4.0
+Version 1.0 Author: Warren StockdaleLicence: CC BY-NC 4.0
 
 🦅 What is RAPTOR?
 
