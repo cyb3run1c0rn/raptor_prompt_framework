@@ -108,10 +108,14 @@ Encourage the AI to check for assumptions, missing data, or clarification needs.
 1. Try the following prompt which uses the RAPTOR Framework:
 
 > "I want you to help me structure an effective AI prompt using the RAPTOR framework (Role, Aim, Parameters, Tone, Output, Review).
-I will give you a brief description of what I need. From that, generate a full RAPTOR prompt that maximises clarity, structure, and control.
->Please infer the appropriate Role, Aim, Parameters, Tone, Output structure, and Review instructions based on best practices.
->Keep your response clear and professional.
->Here is my idea or goal: I want a fully built automatically generated web platform for predicting cardano progress. It should be a simple overview to allow for gaming trades".
+> 
+> I will give you a brief description of what I need. From that, generate a full RAPTOR prompt that maximises clarity, structure, and control.
+> 
+> Please infer the appropriate Role, Aim, Parameters, Tone, Output structure, and Review instructions based on best practices.
+> 
+> Keep your response clear and professional.
+> 
+> Here is my idea or goal: I want a fully built automatically generated web platform for predicting cardano progress. It should be a simple overview to allow for gaming trades".
 
 2. Use the output as the perfect prompt for your requirements.
 
