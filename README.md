@@ -1,95 +1,95 @@
-🦅 RAPTOR Prompt Engineering Framework
+* 🦅 RAPTOR Prompt Engineering Framework
 
-Version: 1.0
-Author: Warren Stockdale
-Licence: CC BY-NC 4.0
-Last Updated: 23/03/2025
+Version: 1.0  
+Author: Warren Stockdale  
+Licence: CC BY-NC 4.0  
+Last Updated: 23/03/2025  
 
 ---
 
-🚀 Executive Summary
+## 🚀 Executive Summary
 
-The RAPTOR Prompt Engineering Framework offers a systematic and flexible approach to crafting effective prompts for AI systems. It enhances clarity, structure, and consistency, especially for technical, professional, or high-stakes scenarios.
+The **RAPTOR Prompt Engineering Framework** offers a systematic and flexible approach to crafting effective prompts for AI systems. It enhances clarity, structure, and consistency, especially for technical, professional, or high-stakes scenarios.
 
-RAPTOR stands for:
-- Role – Define the AI’s persona
-- Aim – Set a clear task
-- Parameters – Establish scope and constraints
-- Tone – Determine communication style
-- Output – Specify the response format
-- Review – Enable iteration or refinement
+**RAPTOR** stands for:  
+- **Role** – Define the AI’s persona  
+- **Aim** – Set a clear task  
+- **Parameters** – Establish scope and constraints  
+- **Tone** – Determine communication style  
+- **Output** – Specify the response format  
+- **Review** – Enable iteration or refinement  
 
 This framework helps users better guide AI models by providing a structured blueprint for prompt creation.
 
-Use as a Meta Prompt – To achieve near-perfect prompt generation, consider utilising RAPTOR as a meta prompt alongside your ideas or tasks.
+**Use as a Meta Prompt** – To achieve near-perfect prompt generation, consider utilising RAPTOR as a meta prompt alongside your ideas or tasks.
 
 ---
 
-🧠 Role
+## 🧠 Role
 
 Assigning a particular identity or area of expertise to the AI provides the correct context for its knowledge and behaviour.
 
-Example:
-"You are a senior cybersecurity analyst with expertise in OT systems and incident response."
+**Example:**  
+> "You are a senior cybersecurity analyst with expertise in OT systems and incident response."
 
 ---
 
-🎯 Aim
+## 🎯 Aim
 
 Clearly state what you want the AI to accomplish.
 
-Example:
-"Analyse the key threats to critical infrastructure posed by emerging OT malware families in 2024."
+**Example:**  
+> "Analyse the key threats to critical infrastructure posed by emerging OT malware families in 2024."
 
 ---
 
-📐 Parameters
+## 📐 Parameters
 
 Define the scope, exclusions, time frames, and any other limitations.
 
-Example:
-"Focus on advisories from government agencies and known vendors since January 2024. Exclude generic ransomware."
+**Example:**  
+> "Focus on advisories from government agencies and known vendors since January 2024. Exclude generic ransomware."
 
 ---
 
-🎙️ Tone
+## 🎙️ Tone
 
 Specify the desired communication style to suit the intended audience.
 
-Example:
-"Use a formal and concise tone suitable for executive-level reporting."
+**Example:**  
+> "Use a formal and concise tone suitable for executive-level reporting."
 
 ---
 
-🗂️ Output
+## 🗂️ Output
 
 Instruct the AI on the exact structure or format of the response.
 
-Example:
-"Provide the analysis in four sections: (1) Key Vulnerabilities, (2) Attack Vectors, (3) Impact Assessment, (4) Mitigation Strategies."
+**Example:**  
+> "Provide the analysis in four sections: (1) Key Vulnerabilities, (2) Attack Vectors, (3) Impact Assessment, (4) Mitigation Strategies."
 
 ---
 
-🔍 Review
+## 🔍 Review
 
 Prompt the AI to highlight assumptions, gaps in information, or any need for clarification.
 
-Example:
-"If assumptions are required, state them clearly. If information is missing, ask for clarification before continuing."
+**Example:**  
+> "If assumptions are required, state them clearly. If information is missing, ask for clarification before continuing."
 
 ---
 
-🧩 Use Cases
+## 🧩 Use Cases
 
-- Executive briefings
-- Technical risk assessments
-- Educational resources
-- Strategic planning with LLMs
-- Prompt libraries for consulting or SaaS
+- Executive briefings  
+- Technical risk assessments  
+- Educational resources  
+- Strategic planning with LLMs  
+- Prompt libraries for consulting or SaaS  
 
 ---
 
-📊 Comparison with Other Methods
+## 📊 Comparison with Other Methods
 
 | Feature               | RAPTOR ✅ | Chain-of-Thought ❌ | ReAct ❌ | APE ✅ |
 |-----------------------|-----------|----------------------|----------|--------|
@@ -102,105 +102,105 @@ Example:
 
 ---
 
-🛠️ Use the RAPTOR Meta Prompt Generator
+## 🛠️ Use the RAPTOR Meta Prompt Generator
 
-Looking to go from idea → prompt to idea → working product?
+Looking to go from idea → prompt to **idea → working product**?
 
-Use this RAPTOR Meta Prompt Generator to instruct the AI to create a complete, production-ready solution—fully scoped, well-structured, and ready for deployment.
+Use this RAPTOR **Meta Prompt Generator** to instruct the AI to create a complete, production-ready solution—fully scoped, well-structured, and ready for deployment.
 
-🧾 Meta Prompt Template:
+### 🧾 Meta Prompt Template:
 
-Help me generate a complete and production-ready AI prompt using the RAPTOR framework:
-- Role
-- Aim
-- Parameters
-- Tone
-- Output
-- Review
-
-I’ll describe my goal briefly—please expand it into a full RAPTOR prompt that will guide the AI to build the actual end product (e.g. a functional application, tool, or system).
-
-My idea or task: [INSERT YOUR IDEA HERE]
-
----
-
-💡 Example Input 1. (Technical Application)
-
-My idea or task:
-Build a fully working web app that tracks Cardano blockchain activity and visualises key indicators to aid gaming-based trading decisions. The final output should include source code, HTML/CSS/JS or Python (Flask), and setup instructions. The solution must be deployable by a non-technical user.
+> Help me generate a complete and production-ready AI prompt using the RAPTOR framework:  
+> - Role  
+> - Aim  
+> - Parameters  
+> - Tone  
+> - Output  
+> - Review  
+>  
+> I’ll describe my goal briefly—please expand it into a full RAPTOR prompt that will guide the AI to build the actual end product (e.g. a functional application, tool, or system).  
+>  
+> My idea or task: **[INSERT YOUR IDEA HERE]**
 
 ---
 
-🔄 Example Output Prompt (Generated by the Meta Prompt)
+### 💡 **Example Input 1.** (Technical Application)
 
-Role: You are a full-stack blockchain web developer with experience in creating crypto dashboards.
-
-Aim: Build a fully functional web application that visualises real-time Cardano blockchain metrics to support strategy decisions in gaming-related trading.
-
-Parameters: Use publicly available data or mock data where API access is not feasible. The app should include a dashboard interface, charts for key metrics (wallet activity, volume, NFT trades), and be deployable locally via Flask or Node.js. A database is not required. The front end must be user-friendly.
-
-Tone: Developer-friendly, with commented code and language accessible to a junior developer or tech-savvy trader.
-
-Output: Provide fully working code for a Flask-based (or Node.js-based) web app, including:
-1. Setup instructions
-2. Front-end code (HTML/CSS/JS or React)
-3. Back-end logic for data retrieval/processing
-4. Visualisation elements (e.g., Chart.js, D3)
-5. Notes on future API integration
-
-Review: If assumptions are unclear (e.g., the specific Cardano metrics or UI design), ask before proceeding. Check whether a database or specific deployment platform (Heroku, Docker, etc.) is needed.
+> My idea or task:  
+> **Build a fully working web app that tracks Cardano blockchain activity and visualises key indicators to aid gaming-based trading decisions. The final output should include source code, HTML/CSS/JS or Python (Flask), and setup instructions. The solution must be deployable by a non-technical user.**
 
 ---
 
-🔥 Result:
-When used in ChatGPT (or Claude, Gemini, etc.), this prompt can guide the AI to produce a functioning MVP of your concept — complete with code.
+### 🔄 Example Output Prompt (Generated by the Meta Prompt)
+
+> **Role:** You are a full-stack blockchain web developer with experience in creating crypto dashboards.  
+>
+> **Aim:** Build a fully functional web application that visualises real-time Cardano blockchain metrics to support strategy decisions in gaming-related trading.  
+>
+> **Parameters:** Use publicly available data or mock data where API access is not feasible. The app should include a dashboard interface, charts for key metrics (wallet activity, volume, NFT trades), and be deployable locally via Flask or Node.js. A database is not required. The front end must be user-friendly.  
+>
+> **Tone:** Developer-friendly, with commented code and language accessible to a junior developer or tech-savvy trader.  
+>
+> **Output:** Provide fully working code for a Flask-based (or Node.js-based) web app, including:  
+> 1. Setup instructions  
+> 2. Front-end code (HTML/CSS/JS or React)  
+> 3. Back-end logic for data retrieval/processing  
+> 4. Visualisation elements (e.g., Chart.js, D3)  
+> 5. Notes on future API integration  
+>
+> **Review:** If assumptions are unclear (e.g., the specific Cardano metrics or UI design), ask before proceeding. Check whether a database or specific deployment platform (Heroku, Docker, etc.) is needed.
 
 ---
 
-💡 Example Input 2. (Non-Technical, Monetised Product)
-
-My idea or task:
-Create a complete downloadable product called “The Freelancer’s Proposal Pack” — a toolkit for freelance designers, writers, and developers that includes templates, pricing strategies, objection-handling scripts, and email outreach sequences. The final output should be prepared for sale on Gumroad or a similar platform.
+🔥 **Result:**  
+When used in ChatGPT (or Claude, Gemini, etc.), this prompt can guide the AI to produce a **functioning MVP** of your concept — complete with code.
 
 ---
 
-🔄 Example Output Prompt (Generated by the Meta Prompt)
+### 💡 **Example Input 2.** (Non-Technical, Monetised Product)
 
-Role: You are a creative business consultant and digital product strategist experienced in helping freelancers package their services.
-
-Aim: Develop a monetisable digital product called “The Freelancer’s Proposal Pack” that provides ready-to-use templates and guidance for pitching, pricing, and closing deals.
-
-Parameters: The pack should cater to freelance creatives (e.g. designers, writers, developers). Avoid strategies suited for large agencies; focus on individuals or new freelancers. The content must be editable (Google Docs or Notion). Ensure the material is comprehensive enough to sell standalone or bundle with a course.
-
-Tone: Practical, friendly, and encouraging. Address freelancers who aim to appear professional, secure more projects, and protect their time without sounding overly corporate.
-
-Output: Produce the complete digital product, including:
-1. 3–5 proposal templates with sample pricing
-2. Email scripts for cold outreach, warm leads, and project follow-up
-3. A concise pricing guide featuring value-based strategies
-4. An objection-handling cheat sheet (FAQ style)
-5. A branded proposal document (editable in Google Docs or Notion)
-6. A short PDF explaining how to use the pack
-
-Review: Confirm if the pack targets a specific niche (e.g. design, tech, writing). Ask whether a simple style guide is required. Check if the user would like to include a lead magnet for email list building.
+> My idea or task:  
+> **Create a complete downloadable product called “The Freelancer’s Proposal Pack” — a toolkit for freelance designers, writers, and developers that includes templates, pricing strategies, objection-handling scripts, and email outreach sequences. The final output should be prepared for sale on Gumroad or a similar platform.**
 
 ---
 
-🛍️ Result:
-Use this RAPTOR-based prompt with an AI assistant to generate a complete, ready-to-sell freelance toolkit—ideal for Gumroad, Etsy, Notion templates, or to complement coaching programmes and digital courses.
+### 🔄 Example Output Prompt (Generated by the Meta Prompt)
+
+> **Role:** You are a creative business consultant and digital product strategist experienced in helping freelancers package their services.  
+>
+> **Aim:** Develop a monetisable digital product called “The Freelancer’s Proposal Pack” that provides ready-to-use templates and guidance for pitching, pricing, and closing deals.  
+>
+> **Parameters:** The pack should cater to freelance creatives (e.g. designers, writers, developers). Avoid strategies suited for large agencies; focus on individuals or new freelancers. The content must be editable (Google Docs or Notion). Ensure the material is comprehensive enough to sell standalone or bundle with a course.  
+>
+> **Tone:** Practical, friendly, and encouraging. Address freelancers who aim to appear professional, secure more projects, and protect their time without sounding overly corporate.  
+>
+> **Output:** Produce the complete digital product, including:  
+> 1. 3–5 proposal templates with sample pricing  
+> 2. Email scripts for cold outreach, warm leads, and project follow-up  
+> 3. A concise pricing guide featuring value-based strategies  
+> 4. An objection-handling cheat sheet (FAQ style)  
+> 5. A branded proposal document (editable in Google Docs or Notion)  
+> 6. A short PDF explaining how to use the pack  
+>
+> **Review:** Confirm if the pack targets a specific niche (e.g. design, tech, writing). Ask whether a simple style guide is required. Check if the user would like to include a lead magnet for email list building.
 
 ---
 
-📄 Licence
+🛍️ **Result:**  
+Use this RAPTOR-based prompt with an AI assistant to generate a **complete, ready-to-sell freelance toolkit**—ideal for Gumroad, Etsy, Notion templates, or to complement coaching programmes and digital courses.
 
-This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).
+---
+
+## 📄 Licence
+
+This work is licensed under the **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**.  
 For commercial usage, please contact the author to arrange a commercial licence.
 
 ---
 
-🤝 Contributions & Community
+## 🤝 Contributions & Community
 
 Community input is warmly encouraged. Submit issues or pull requests to help refine and expand the framework.
 
-GitHub: https://github.com/cyb3run1c0rn/raptor_prompt_framework/
-Contact: TBC
+**GitHub:** [https://github.com/cyb3run1c0rn/raptor_prompt_framework/](https://github.com/cyb3run1c0rn/raptor_prompt_framework/)  
+**Contact:** TBC
