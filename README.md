@@ -135,13 +135,13 @@ Use the **RAPTOR Meta Prompt Generator** to get a fully scoped, well-structured,
 
 ### 🧾 Meta Prompt Template:
 
-> Help me generate a complete and production-ready AI prompt using the RAPTOR framework:  
-> - Role  
-> - Aim  
-> - Parameters  
-> - Tone  
-> - Output  
-> - Review  
+> Help me generate a complete and production-ready AI prompt using the RAPTOR framework:
+> - Role – Define the AI’s persona.
+> - Aim – Set a clear task.
+> - Parameters – Establish scope and constraints.
+> - Tone – Determine communication style.
+> - Output – Specify the response format.
+> - Review – Enable iteration or refinement.
 >
 > I’ll describe my goal briefly—please expand it into a full RAPTOR prompt that will guide the AI to build the actual end product (e.g. a functional application, tool, or system).  
 >
