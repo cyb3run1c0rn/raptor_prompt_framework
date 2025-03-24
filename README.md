@@ -1,4 +1,4 @@
-* 🦅 RAPTOR Prompt Engineering Framework
+# 🦅 RAPTOR Prompt Engineering Framework
 
 Version: 1.0  
 Author: Warren Stockdale  
