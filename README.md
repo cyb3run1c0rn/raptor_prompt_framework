@@ -1,15 +1,15 @@
 # 🦅 RAPTOR Prompt Engineering Framework
 
-Version: 1.0  
-Author: Warren Stockdale  
-Licence: CC BY-NC 4.0  
-Last Updated: 23/03/2025  
+**Version:** 1.0
+**Author:** Warren Stockdale  
+**Licence:** CC BY-NC 4.0  
+**Last Updated:** 23/03/2025  
 
 ---
 
 ## 🚀 Executive Summary
 
-The **RAPTOR Prompt Engineering Framework** offers a systematic and flexible approach to crafting effective prompts for AI systems. It enhances clarity, structure, and consistency, especially for technical, professional, or high-stakes scenarios.
+The **RAPTOR Prompt Engineering Framework** provides a systematic yet flexible approach to crafting effective AI prompts. By offering clarity, structure, and consistency, it is suited to technical, professional, and high-stakes environments.  
 
 **RAPTOR** stands for:  
 - **Role** – Define the AI’s persona  
@@ -19,24 +19,30 @@ The **RAPTOR Prompt Engineering Framework** offers a systematic and flexible app
 - **Output** – Specify the response format  
 - **Review** – Enable iteration or refinement  
 
-This framework helps users better guide AI models by providing a structured blueprint for prompt creation.
-
-**Use as a Meta Prompt** – To achieve near-perfect prompt generation, consider utilising RAPTOR as a meta prompt alongside your ideas or tasks.
+Used either on its own or as a *meta prompt*, RAPTOR can help generate well-structured, focused prompts in any field.
 
 ---
 
 ## 🧠 Role
 
-Assigning a particular identity or area of expertise to the AI provides the correct context for its knowledge and behaviour.
+Assigning a persona (and any relevant background or domain context) to the AI helps shape its knowledge, behaviour, and manner of response.
+
+- **Recommended Detail**:  
+  - Describe the AI’s specialised knowledge or function (e.g., “You are a market analyst specialising in fintech”).  
+  - Add contextual references here if they inform how the AI should respond (e.g., relevant policies, organisational culture).
 
 **Example:**  
-> "You are a senior cybersecurity analyst with expertise in OT systems and incident response."
+> "You are a senior cybersecurity analyst with expertise in OT systems and incident response. Consider internal compliance policies when providing guidance."
 
 ---
 
 ## 🎯 Aim
 
-Clearly state what you want the AI to accomplish.
+Clearly define the *primary* goal or task for the AI. State what outcome you want it to achieve, without overloading this section with constraints.
+
+- **Recommended Detail**:  
+  - Keep the core objective concise (e.g., "Draft a threat report on emerging malware families").  
+  - Additional conditions or resources belong under **Parameters**.
 
 **Example:**  
 > "Analyse the key threats to critical infrastructure posed by emerging OT malware families in 2024."
@@ -45,25 +51,37 @@ Clearly state what you want the AI to accomplish.
 
 ## 📐 Parameters
 
-Define the scope, exclusions, time frames, and any other limitations.
+List constraints, resources, and contextual details that the AI must factor in. This includes references to data sources, regulatory requirements, or time frames.
+
+- **Recommended Detail**:  
+  - Specify what resources or boundaries apply (e.g., “Use official advisories only,” “Avoid generic ransomware”).  
+  - Include relevant context that influences scope—such as target audience, domain restrictions, or relevant standards.
 
 **Example:**  
-> "Focus on advisories from government agencies and known vendors since January 2024. Exclude generic ransomware."
+> "Focus on advisories from government agencies and known vendors since January 2024. Exclude generic ransomware. Comply with any internal reporting templates."
 
 ---
 
 ## 🎙️ Tone
 
-Specify the desired communication style to suit the intended audience.
+Determine how the AI should communicate. Indicate the style, formality, or any language requirements.
+
+- **Recommended Detail**:  
+  - Choose whether the tone should be formal, casual, persuasive, or instructional.  
+  - Specify language conventions (e.g., British English) or level of technicality.
 
 **Example:**  
-> "Use a formal and concise tone suitable for executive-level reporting."
+> "Use a formal and concise tone suitable for executive-level reporting. Write in British English."
 
 ---
 
 ## 🗂️ Output
 
-Instruct the AI on the exact structure or format of the response.
+Instruct the AI about the exact structure or format you expect. Mention any specific deliverables or output style.
+
+- **Recommended Detail**:  
+  - State whether you want bullet points, code, diagrams, or a specific file format.  
+  - If multiple outputs are needed, list each clearly.
 
 **Example:**  
 > "Provide the analysis in four sections: (1) Key Vulnerabilities, (2) Attack Vectors, (3) Impact Assessment, (4) Mitigation Strategies."
@@ -72,10 +90,17 @@ Instruct the AI on the exact structure or format of the response.
 
 ## 🔍 Review
 
-Prompt the AI to highlight assumptions, gaps in information, or any need for clarification.
+Reserve space to refine and iterate on your prompt. Encourage the AI (and yourself) to check assumptions, fill information gaps, or adjust based on feedback.
+
+- **Checklist Guidance**:
+  1. **Clarity**: Is the Aim clearly stated?  
+  2. **Consistency**: Do Parameters align with the Aim?  
+  3. **Compliance**: Have any legal or policy constraints been respected?  
+  4. **Completeness**: Is there enough context for the AI to proceed confidently?  
+  5. **Feasibility**: Are the requested outputs realistic within the stated scope?
 
 **Example:**  
-> "If assumptions are required, state them clearly. If information is missing, ask for clarification before continuing."
+> "If you require any assumptions, state them. Ask for clarification if data sources or constraints are missing. Double-check all sections before finalising."
 
 ---
 
@@ -104,9 +129,9 @@ Prompt the AI to highlight assumptions, gaps in information, or any need for cla
 
 ## 🛠️ Use the RAPTOR Meta Prompt Generator
 
-Looking to go from idea → prompt to **idea → working product**?
+Looking to go from **idea → prompt** to **idea → working product**?
 
-Use this RAPTOR **Meta Prompt Generator** to instruct the AI to create a complete, production-ready solution—fully scoped, well-structured, and ready for deployment.
+Use the **RAPTOR Meta Prompt Generator** to get a fully scoped, well-structured, and production-ready prompt.
 
 ### 🧾 Meta Prompt Template:
 
@@ -117,9 +142,9 @@ Use this RAPTOR **Meta Prompt Generator** to instruct the AI to create a complet
 > - Tone  
 > - Output  
 > - Review  
->  
+>
 > I’ll describe my goal briefly—please expand it into a full RAPTOR prompt that will guide the AI to build the actual end product (e.g. a functional application, tool, or system).  
->  
+>
 > My idea or task: **[INSERT YOUR IDEA HERE]**
 
 ---
@@ -129,9 +154,7 @@ Use this RAPTOR **Meta Prompt Generator** to instruct the AI to create a complet
 > My idea or task:  
 > **Build a fully working web app that tracks Cardano blockchain activity and visualises key indicators to aid gaming-based trading decisions. The final output should include source code, HTML/CSS/JS or Python (Flask), and setup instructions. The solution must be deployable by a non-technical user.**
 
----
-
-### 🔄 Example Output Prompt (Generated by the Meta Prompt)
+### 🔄 **Example Output Prompt (Generated by the Meta Prompt)**
 
 > **Role:** You are a full-stack blockchain web developer with experience in creating crypto dashboards.  
 >
@@ -148,12 +171,10 @@ Use this RAPTOR **Meta Prompt Generator** to instruct the AI to create a complet
 > 4. Visualisation elements (e.g., Chart.js, D3)  
 > 5. Notes on future API integration  
 >
-> **Review:** If assumptions are unclear (e.g., the specific Cardano metrics or UI design), ask before proceeding. Check whether a database or specific deployment platform (Heroku, Docker, etc.) is needed.
-
----
+> **Review:** If assumptions are unclear (e.g., specific Cardano metrics, UI design), ask before proceeding. Check if a database or a particular deployment platform (Heroku, Docker, etc.) is needed.
 
 🔥 **Result:**  
-When used in ChatGPT (or Claude, Gemini, etc.), this prompt can guide the AI to produce a **functioning MVP** of your concept — complete with code.
+A clear, reproducible prompt that guides an AI assistant to produce a functioning MVP, complete with code.
 
 ---
 
@@ -162,32 +183,28 @@ When used in ChatGPT (or Claude, Gemini, etc.), this prompt can guide the AI to 
 > My idea or task:  
 > **Create a complete downloadable product called “The Freelancer’s Proposal Pack” — a toolkit for freelance designers, writers, and developers that includes templates, pricing strategies, objection-handling scripts, and email outreach sequences. The final output should be prepared for sale on Gumroad or a similar platform.**
 
----
-
-### 🔄 Example Output Prompt (Generated by the Meta Prompt)
+### 🔄 **Example Output Prompt (Generated by the Meta Prompt)**
 
 > **Role:** You are a creative business consultant and digital product strategist experienced in helping freelancers package their services.  
 >
 > **Aim:** Develop a monetisable digital product called “The Freelancer’s Proposal Pack” that provides ready-to-use templates and guidance for pitching, pricing, and closing deals.  
 >
-> **Parameters:** The pack should cater to freelance creatives (e.g. designers, writers, developers). Avoid strategies suited for large agencies; focus on individuals or new freelancers. The content must be editable (Google Docs or Notion). Ensure the material is comprehensive enough to sell standalone or bundle with a course.  
+> **Parameters:** The pack should cater to freelance creatives (designers, writers, developers). Avoid large-agency strategies; focus on individuals or new freelancers. The content must be editable (Google Docs or Notion). Ensure it’s comprehensive enough to sell standalone or bundle with a course.  
 >
-> **Tone:** Practical, friendly, and encouraging. Address freelancers who aim to appear professional, secure more projects, and protect their time without sounding overly corporate.  
+> **Tone:** Practical, friendly, and encouraging. Address freelancers who aim to appear professional and protect their time without sounding too corporate.  
 >
 > **Output:** Produce the complete digital product, including:  
 > 1. 3–5 proposal templates with sample pricing  
 > 2. Email scripts for cold outreach, warm leads, and project follow-up  
-> 3. A concise pricing guide featuring value-based strategies  
+> 3. A concise pricing guide with value-based strategies  
 > 4. An objection-handling cheat sheet (FAQ style)  
 > 5. A branded proposal document (editable in Google Docs or Notion)  
 > 6. A short PDF explaining how to use the pack  
 >
-> **Review:** Confirm if the pack targets a specific niche (e.g. design, tech, writing). Ask whether a simple style guide is required. Check if the user would like to include a lead magnet for email list building.
-
----
+> **Review:** Confirm if the pack targets a specific niche (e.g. design, tech, writing). Ask whether a simple style guide is required. Check if a lead magnet for email list building is desired.
 
 🛍️ **Result:**  
-Use this RAPTOR-based prompt with an AI assistant to generate a **complete, ready-to-sell freelance toolkit**—ideal for Gumroad, Etsy, Notion templates, or to complement coaching programmes and digital courses.
+A comprehensive prompt that directs an AI assistant to generate a ready-to-sell digital toolkit, ideal for platforms like Gumroad or Etsy.
 
 ---
 
