@@ -1,7 +1,7 @@
 # 🦅 RAPTOR Prompt Engineering Framework
 
 **Version:** 1.0
-**Author:** Warren Stockdale  
+**Author:** RAPTOR TRUST
 **Licence:** CC BY-NC 4.0  
 **Last Updated:** 23/03/2025  
 
