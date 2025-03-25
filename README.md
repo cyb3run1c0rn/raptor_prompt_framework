@@ -21,10 +21,6 @@ The **RAPTOR Prompt Engineering Framework** provides a systematic yet flexible a
 
 Used either on its own or as a *meta prompt*, RAPTOR can help generate well-structured, focused prompts in any field.
 
-Use (copy and paste) the meta prompt into your favourite chat LLM, then add your amazing idea, and detail what you want exactly, then run the AI.
-
-Copy and paste its output as a new prompt to profit.
-
 ---
 
 ## 🧠 Role
@@ -136,6 +132,11 @@ Reserve space to refine and iterate on your prompt. Encourage the AI (and yourse
 Looking to go from **idea → prompt** to **idea → working product**?
 
 Use the **RAPTOR Meta Prompt Generator** to get a fully scoped, well-structured, and production-ready prompt.
+
+(Copy and paste the meta prompt into your favourite chat LLM, then add your amazing idea, and detail what you want exactly, then run the AI.
+
+Copy and paste its output as a new prompt to profit.)
+
 
 ### 🧾 Meta Prompt Template:
 
