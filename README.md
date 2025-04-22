@@ -127,33 +127,6 @@ Reserve space to refine and iterate on your prompt. Encourage the AI (and yourse
 
 ---
 
-## 🛠️ Use the RAPTOR Meta Prompt Generator
-
-Looking to go from **idea → prompt** to **idea → working product**?
-
-Use the **RAPTOR Meta Prompt Generator** to get a fully scoped, well-structured, and production-ready prompt.
-
-(Copy and paste the meta prompt into your favourite chat LLM, then add your amazing idea, and detail what you want exactly, then run the AI.
-
-Copy and paste its output as a new prompt to profit.)
-
-
-### 🧾 Meta Prompt Template:
-
-> Help me generate a complete and production-ready AI prompt using the RAPTOR framework:
-> - Role – Define the AI’s persona.
-> - Aim – Set a clear task.
-> - Parameters – Establish scope and constraints.
-> - Tone – Determine communication style.
-> - Output – Specify the response format.
-> - Review – Enable iteration or refinement.
->
-> I’ll describe my goal briefly—please expand it into a full RAPTOR prompt that will guide the AI to build the actual end product (e.g. a functional application, tool, or system).  
->
-> My idea or task: **[INSERT YOUR IDEA HERE]**
-
----
-
 ### 💡 **Example Input 1.** (Technical Application)
 
 > My idea or task:  
