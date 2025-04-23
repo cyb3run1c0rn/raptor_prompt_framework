@@ -198,4 +198,4 @@ For commercial usage, please contact the author to arrange a commercial licence.
 Community input is warmly encouraged. Submit issues or pull requests to help refine and expand the framework.
 
 **GitHub:** [https://github.com/cyb3run1c0rn/raptor_prompt_framework/](https://github.com/cyb3run1c0rn/raptor_prompt_framework/)  
-**Contact:** TBC
+**Contact:** [https://raptorframework.io]
