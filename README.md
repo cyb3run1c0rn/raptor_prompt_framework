@@ -1,9 +1,9 @@
 # 🦅 RAPTOR Prompt Engineering Framework
 
 **Version:** 1.0
-**Author:** Promptsmith Ltd.
+**Author:** Warren Stockdale MSc.
 **Licence:** CC BY-NC 4.0  
-**Last Updated:** 02/04/2025  
+**Last Updated:** 24/09/2026  
 
 ---
 
